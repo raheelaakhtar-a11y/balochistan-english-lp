@@ -1,0 +1,9 @@
+Level 1 Beginner Urdu Day 1 (FINAL planner, 27 Oct 2026): teach new letters ا ب پ ت ٹ by SOUND (U-B-01/02/03, U-B-04 folded in).
+Sources: work\common_u.py (letters, picture words, sounds, call lists, answer keys - one data block), doc_lp_u.py, doc_prep_u.py, doc_ws_u.py, build.py
+Rebuild: python work\build.py lpu prepu wsu   (needs pymupdf + pillow; Edge prints the PDFs; overflow is reported through the PDF title).
+Pictures: kie_gen_u1.py (انار بٹن پری توا ٹرک, from Grade 1 book Lesson 1 p.1); scenes copied from the English Day 1 set.
+Save changes as _v2, never overwrite _v1. Urdu is live Noto Nastaliq text, never drawn by the image model.
+
+v2 (28 Oct 2026): rebuild with `python work\build.py lpu2 prepu2 wsu2` (common_u2.py adds Poppins English tags, speech bubbles, stroke-order diagrams, print-safe pale tiles, minutes check). v1 files are unchanged.
+
+v3 (27 Oct): python work\build.py lpu3 prepu3  -> doc_lp_u3.py, doc_prep_u3.py. Worksheet v3 = v2 unchanged (copy).
